@@ -7,7 +7,7 @@ const propTypes = {
 };
 
 function createWarning(funcName) {
-  return () => console.warn(funcName + 'is not defined');
+  return () => console.log(funcName + 'is not defined');
 }
 
 const defaultProps = {

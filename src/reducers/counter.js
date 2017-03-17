@@ -21,7 +21,7 @@ export default function counter(state, action){
   */
 export default function counter(state = initialState, action) {
 
-  switch(action.type) {
+  switch (action.type) {
     case types.INCREMENT:
       return {
         ...state,
